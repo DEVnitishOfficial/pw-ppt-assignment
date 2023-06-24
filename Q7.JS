@@ -6,13 +6,14 @@
 // **Example 1:**
 // Input: nums = [0,1,0,3,12]
 // Output: [1,3,12,0,0]
+// BRUTE FORCE APPROACH
 
 const nums = [0,1,0,3,12];  
 let arrangeZeros = nums.filter(Element => Element ===0);
 let arrangeNonZeros = nums.filter(Element =>Element !== 0);
  
 let arrangedArray = arrangeNonZeros.concat(arrangeZeros);
-console.log(arrangedArray);
+// console.log(arrangedArray);
 
 // OPTIMIZED CODE
 // TIME COMPLEXITY O(n)

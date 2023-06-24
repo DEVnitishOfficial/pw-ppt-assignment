@@ -13,7 +13,8 @@ Output: [1,2,2,3,5,6]
 The result of the merge is [1,2,2,3,5,6] with the underlined elements coming from nums1.
 </aside> */
 
-
+// TIME COMPLEXITY → O(m+n)
+// SPACE COMPLXITY → O(1)  donin inplace and not using any extra space
 function merge(nums1, m, nums2, n) {
     let i = m - 1;
     let j = n - 1;
